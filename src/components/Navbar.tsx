@@ -38,7 +38,7 @@ export function Navbar() {
           className={cn(
             'flex items-center justify-between w-full max-w-[1400px] transition-all duration-500 rounded-full px-6 md:px-10',
             isScrolled 
-              ? 'bg-charcoal/85 backdrop-blur-xl py-3 shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-white/10' 
+              ? 'bg-[#242B3A] py-3 shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-white/10' 
               : 'bg-transparent py-3 md:py-4'
           )}
         >
@@ -118,7 +118,7 @@ export function Navbar() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 bg-charcoal/95 backdrop-blur-xl z-[60] flex flex-col"
+            className="fixed inset-0 bg-[#242B3A]/95 backdrop-blur-xl z-[60] flex flex-col"
           >
             <div className="flex justify-end p-6 md:p-8">
               <button

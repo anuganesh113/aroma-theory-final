@@ -56,15 +56,15 @@ export function CategoryNavigation() {
   };
 
   return (
-    <div className="sticky top-[80px] z-40 bg-charcoal/95 backdrop-blur-md border-b border-white/10 shadow-sm transition-all duration-300">
-      <div className="max-w-[1400px] mx-auto px-6 md:px-12">
-        <div className="flex overflow-x-auto hide-scrollbar py-4 gap-2 md:gap-4 items-center snap-x">
+    <div className="sticky top-[72px] md:top-[80px] z-40 bg-charcoal/95 backdrop-blur-md border-b border-white/10 shadow-sm transition-all duration-300">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-12">
+        <div className="flex overflow-x-auto hide-scrollbar py-3 md:py-4 gap-2 md:gap-4 items-center snap-x -mx-4 px-4 sm:mx-0 sm:px-0">
           {categories.map((cat) => (
             <button
               key={cat.id}
               onClick={() => scrollToCategory(cat.id)}
               className={cn(
-                "flex items-center gap-2 px-4 py-2 rounded-full whitespace-nowrap transition-all duration-300 snap-start font-medium text-sm border",
+                "flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full whitespace-nowrap transition-all duration-300 snap-start font-medium text-xs sm:text-sm border",
                 activeId === cat.id 
                   ? "bg-white/10 text-gold border-white/20" 
                   : "bg-transparent text-white/70 border-white/10 hover:border-gold hover:text-white"

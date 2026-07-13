@@ -114,7 +114,7 @@ export function Testimonials() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-serif text-charcoal mb-6 tracking-tight leading-[1.1]"
+            className="text-display-section font-serif text-charcoal mb-6 tracking-tight leading-[1.1]"
           >
             What Our Guests<br className="hidden md:block"/> Are Saying
           </motion.h2>
@@ -143,7 +143,7 @@ export function Testimonials() {
                 <Star key={star} size={18} fill="currentColor" stroke="none" />
               ))}
             </div>
-            <div className="text-3xl md:text-4xl font-serif text-charcoal mb-2">4.9 / 5</div>
+            <div className="text-display-card font-serif text-charcoal mb-2">4.9 / 5</div>
             <div className="text-[10px] uppercase tracking-widest font-medium text-charcoal/50">
               Based on <CountUp end={2500} />+ Happy Guests<br/>
               <span className="opacity-70 mt-1 block">Trusted by Locals & Visitors</span>
@@ -233,7 +233,7 @@ export function Testimonials() {
           </div>
           
           <div className="relative z-10 max-w-2xl mx-auto flex flex-col items-center">
-            <h3 className="text-3xl md:text-5xl lg:text-6xl font-serif mb-6 leading-[1.1] tracking-tight">
+            <h3 className="text-display-section font-serif mb-6 leading-[1.1] tracking-tight">
               Create Your Own<br/>Memorable Experience
             </h3>
             <p className="text-cream/60 font-light text-sm md:text-[15px] mb-10 md:mb-12 leading-relaxed max-w-lg">

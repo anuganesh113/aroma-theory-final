@@ -36,16 +36,16 @@ export function About() {
           >
             <div className="flex items-center gap-4 mb-8">
               <div className="w-12 h-px bg-gold" />
-              <h2 className="text-[11px] uppercase tracking-[0.3em] text-gold font-medium">
+              <h2 className="text-eyebrow uppercase text-gold">
                 Our Philosophy
               </h2>
             </div>
             
-            <h3 className="text-5xl md:text-6xl lg:text-7xl font-serif mb-12 text-charcoal leading-[1.1] tracking-tight">
+            <h3 className="text-display-section font-serif mb-10 text-charcoal">
               The Alchemy<br />of Olfaction
             </h3>
             
-            <div className="space-y-8 text-charcoal/70 font-light text-[15px] leading-[1.8] mb-12">
+            <div className="space-y-6 text-charcoal/70 font-light text-body mb-10">
               <p>
                 At Aroma Theory, we believe that the true essence of a meal is felt long before it touches the palate. 
                 Our philosophy revolves around the profound and intricate connection between scent and taste—a delicate dance that awakens dormant memories.
@@ -59,10 +59,10 @@ export function About() {
             {/* Pull Quote */}
             <blockquote className="relative pl-8 py-2">
               <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-gold opacity-50" />
-              <p className="font-serif text-xl md:text-2xl italic text-charcoal/90 leading-[1.6] mb-4">
+              <p className="font-serif text-display-card italic text-charcoal/90 leading-[1.6] mb-4">
                 "It's not just a meal. It's a sensory narrative, crafted to linger in your memory long after the final course."
               </p>
-              <footer className="text-[10px] uppercase tracking-[0.2em] font-semibold text-charcoal/50">
+              <footer className="text-eyebrow uppercase text-charcoal/50">
                 — Julian Thorne, Head Chef
               </footer>
             </blockquote>
@@ -105,11 +105,11 @@ export function About() {
               className="absolute -bottom-6 right-4 md:right-12 z-30 bg-charcoal text-cream p-8 md:p-10 shadow-2xl max-w-[280px]"
             >
               <a href="#menu" className="group flex flex-col gap-6">
-                <span className="font-serif text-2xl leading-[1.2]">
+                <span className="font-serif text-display-card leading-[1.2]">
                   Experience<br/>Our Signature
                 </span>
                 <div className="flex items-center gap-4 text-gold">
-                  <span className="text-xs uppercase tracking-widest font-semibold">View Menu</span>
+                  <span className="text-eyebrow uppercase">View Menu</span>
                   <ArrowRight size={18} className="transition-transform group-hover:translate-x-2" />
                 </div>
               </a>

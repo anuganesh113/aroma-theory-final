@@ -28,11 +28,11 @@ export function MenuHighlights() {
         {/* Header & Tabs */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-32 gap-16 lg:gap-8 border-b border-white/10 pb-16">
           <div className="relative">
-             <div className="flex items-center gap-6 mb-8">
+             <div className="flex items-center gap-6 mb-6">
                 <div className="w-16 h-[1px] bg-gold" />
-                <h2 className="text-xs uppercase tracking-[0.4em] text-gold font-semibold">The Menu</h2>
+                <h2 className="text-eyebrow uppercase text-gold">The Menu</h2>
              </div>
-             <h3 className="text-6xl md:text-7xl lg:text-[90px] font-serif text-cream leading-[0.9] tracking-tighter">
+             <h3 className="text-display-section font-serif text-cream">
                 Culinary<br/>
                 <span className="italic text-white/50">Curations</span>
              </h3>
@@ -44,7 +44,7 @@ export function MenuHighlights() {
                 key={category}
                 onClick={() => setActiveCategory(category)}
                 className={cn(
-                  "text-[11px] uppercase tracking-[0.25em] font-semibold transition-all duration-500 relative py-2",
+                  "text-eyebrow uppercase transition-all duration-500 relative py-2",
                   activeCategory === category 
                     ? "text-gold" 
                     : "text-cream/40 hover:text-cream/80"
@@ -94,7 +94,7 @@ export function MenuHighlights() {
                         </span>
                         
                         <div className="flex-1 transition-transform duration-700 ease-[0.16,1,0.3,1] group-hover:translate-x-4">
-                          <h4 className="font-serif text-3xl md:text-4xl lg:text-5xl mb-4 text-cream group-hover:text-gold transition-colors duration-500 tracking-tight">
+                          <h4 className="font-serif text-display-quote mb-4 text-cream group-hover:text-gold transition-colors duration-500 tracking-tight">
                             {item.name}
                           </h4>
                           <p className="text-cream/40 font-light text-[11px] md:text-xs uppercase tracking-[0.2em] leading-[1.8] transition-colors duration-500 group-hover:text-cream/70 max-w-md">
@@ -104,7 +104,7 @@ export function MenuHighlights() {
                       </div>
                       
                       {/* Price */}
-                      <div className="font-serif text-2xl md:text-3xl text-cream/30 group-hover:text-gold transition-colors duration-500 pt-1 shrink-0">
+                      <div className="font-serif text-display-card text-cream/30 group-hover:text-gold transition-colors duration-500 pt-1 shrink-0">
                         {item.price}
                       </div>
                     </div>

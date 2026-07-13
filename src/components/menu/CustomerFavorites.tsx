@@ -10,16 +10,16 @@ const favorites = [
 
 export function CustomerFavorites() {
   return (
-    <section className="py-24 bg-charcoal text-cream">
-      <div className="max-w-[1400px] mx-auto px-6 md:px-12">
+    <section className="py-16 md:py-24 bg-charcoal text-cream">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-12">
         
-        <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h3 className="text-3xl md:text-4xl font-serif mb-6 leading-[1.1] tracking-tight text-white">
+        <div className="text-center mb-10 md:mb-16 max-w-3xl mx-auto">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-serif mb-4 sm:mb-6 leading-[1.1] tracking-tight text-white">
             Loved by Our Guests
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
           {favorites.map((item, i) => (
             <motion.div
               key={i}
@@ -27,7 +27,7 @@ export function CustomerFavorites() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="bg-white/5 p-8 rounded-3xl border border-white/5 hover:border-gold/30 hover:shadow-xl hover:shadow-black/20 hover:-translate-y-1 transition-all duration-300 text-center flex flex-col items-center"
+              className="bg-white/5 p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/5 hover:border-gold/30 hover:shadow-xl hover:shadow-black/20 md:hover:-translate-y-1 transition-all duration-300 text-center flex flex-col items-center"
             >
               <div className="text-gold mb-6 bg-gold/5 w-16 h-16 rounded-full flex items-center justify-center">
                 {item.icon}

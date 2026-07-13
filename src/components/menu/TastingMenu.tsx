@@ -25,16 +25,16 @@ const menus = [
 
 export function TastingMenu() {
   return (
-    <section className="py-24 md:py-32 bg-charcoal text-cream">
-      <div className="max-w-[1200px] mx-auto px-6 md:px-12">
+    <section className="py-16 md:py-24 lg:py-32 bg-charcoal text-cream overflow-hidden">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-12">
         
-        <div className="text-center mb-20 max-w-3xl mx-auto">
+        <div className="text-center mb-12 md:mb-20 max-w-3xl mx-auto">
           <div className="flex items-center justify-center gap-4 mb-6">
              <div className="w-8 h-[1px] bg-gold" />
              <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold">The Journey</h2>
              <div className="w-8 h-[1px] bg-gold" />
           </div>
-          <h3 className="text-4xl md:text-5xl lg:text-6xl font-serif mb-6 leading-[1.1] tracking-tight text-white">
+          <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif mb-4 sm:mb-6 leading-[1.1] tracking-tight text-white">
             Tasting Menus
           </h3>
           <p className="text-white/60 font-light text-[15px] leading-relaxed">
@@ -42,7 +42,7 @@ export function TastingMenu() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {menus.map((menu, i) => (
             <motion.div
               key={i}
@@ -50,9 +50,9 @@ export function TastingMenu() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className={`p-10 rounded-[32px] border transition-all duration-300 relative flex flex-col h-full
+              className={`p-6 sm:p-8 md:p-10 rounded-2xl md:rounded-[32px] border transition-all duration-300 relative flex flex-col h-full
                 ${menu.highlight 
-                  ? 'bg-white/10 text-cream border-gold/50 shadow-2xl scale-105 z-10' 
+                  ? 'bg-white/10 text-cream border-gold/50 shadow-2xl md:scale-105 z-10' 
                   : 'bg-white/5 text-white border-white/10 hover:border-gold/30'}`}
             >
               {menu.highlight && (
@@ -61,7 +61,7 @@ export function TastingMenu() {
                 </div>
               )}
               
-              <h4 className={`font-serif text-3xl mb-4 ${menu.highlight ? 'text-cream' : 'text-white'}`}>
+              <h4 className={`font-serif text-2xl sm:text-3xl mb-3 sm:mb-4 ${menu.highlight ? 'text-cream' : 'text-white'}`}>
                 {menu.title}
               </h4>
               <p className={`font-light text-sm mb-10 flex-grow ${menu.highlight ? 'text-cream/70' : 'text-white/60'}`}>

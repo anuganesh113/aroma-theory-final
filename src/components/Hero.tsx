@@ -23,7 +23,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="text-5xl md:text-6xl lg:text-7xl font-serif text-white leading-[1.1] mb-6 drop-shadow-lg text-balance"
+          className="text-display-hero font-serif text-white mb-6 drop-shadow-lg text-balance"
         >
           Where Every Dish Tells a<br/>Story Through Scent
         </motion.h1>
@@ -33,7 +33,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="text-sm md:text-base text-white/90 font-light max-w-2xl mb-12 leading-relaxed text-balance"
+          className="text-lead text-white/90 font-light max-w-2xl mb-12 text-balance"
         >
           Modern fine dining built on the idea that scent and flavor are inseparable, a wild<br/>journey of deep senses interwoven to enhance your senses.
         </motion.p>

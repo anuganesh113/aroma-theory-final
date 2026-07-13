@@ -23,7 +23,7 @@ export function Gallery() {
              <div className="w-8 h-px bg-gold" />
              <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold">Gallery</h2>
           </div>
-          <h3 className="text-4xl md:text-5xl lg:text-6xl font-serif text-charcoal tracking-tight">
+          <h3 className="text-display-section font-serif text-charcoal tracking-tight">
             Atmosphere
           </h3>
         </motion.div>

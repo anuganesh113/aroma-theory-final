@@ -16,13 +16,13 @@ import { startersData, saladsData, mainsData, dessertsData } from '../data/menuD
 
 export function MenuPage() {
   return (
-    <main className="min-h-screen bg-charcoal text-cream">
+    <main className="min-h-screen bg-charcoal text-cream overflow-x-hidden">
       <MenuHero />
       <CategoryNavigation />
       <FeaturedDishes />
       
       {/* Category Sections */}
-      <div className="max-w-[1400px] mx-auto px-6 md:px-12 py-12">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-12 py-8 md:py-12">
         <MenuSection id="starters" title="Starters" dishes={startersData} />
         <MenuSection id="salads" title="Salads" dishes={saladsData} />
         <MenuSection id="mains" title="Main Course" dishes={mainsData} />
@@ -32,7 +32,7 @@ export function MenuPage() {
       <TastingMenu />
       <SeasonalSpecials />
       
-      <div className="max-w-[1400px] mx-auto px-6 md:px-12 py-12">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-12 py-8 md:py-12">
         <MenuSection id="desserts" title="A La Carte Desserts" dishes={dessertsData} />
       </div>
       

@@ -54,7 +54,7 @@ export function Reservations() {
                <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold">Join Us</h2>
             </div>
             
-            <h3 className="text-5xl md:text-6xl font-serif mb-6 tracking-tight leading-[1.1]">
+            <h3 className="text-display-section font-serif mb-6 tracking-tight leading-[1.1]">
               Reserve<br/>Your Table
             </h3>
             

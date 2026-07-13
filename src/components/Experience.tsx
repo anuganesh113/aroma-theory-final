@@ -42,7 +42,7 @@ export function Experience() {
           <h2 className="text-xs uppercase tracking-[0.3em] text-gold font-semibold">Our Experiences</h2>
           <div className="w-12 h-px bg-gold" />
         </div>
-        <h3 className="text-5xl md:text-6xl lg:text-7xl font-serif leading-[1.1] tracking-tight">
+        <h3 className="text-display-section font-serif leading-[1.1] tracking-tight">
           Beyond the Plate
         </h3>
       </div>
@@ -92,7 +92,7 @@ export function Experience() {
                     </div>
                     {/* Only show full title vertically on unhovered state? No, keep it clean. */}
                     <h4 className={cn(
-                      "font-serif text-3xl md:text-4xl whitespace-nowrap transition-all duration-500",
+                      "font-serif text-display-card whitespace-nowrap transition-all duration-500",
                       (!isHovered && isAnyHovered) ? "lg:opacity-0 lg:-translate-x-4" : "opacity-100 translate-x-0"
                     )}>
                       {exp.title}

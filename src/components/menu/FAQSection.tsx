@@ -16,16 +16,16 @@ export function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className="py-24 md:py-32 bg-charcoal text-cream">
-      <div className="max-w-[800px] mx-auto px-6 md:px-12">
+    <section className="py-16 md:py-24 lg:py-32 bg-charcoal text-cream">
+      <div className="max-w-[800px] mx-auto px-4 sm:px-6 md:px-12">
         
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-16">
           <div className="flex items-center justify-center gap-4 mb-6">
              <div className="w-8 h-[1px] bg-gold" />
              <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold">Information</h2>
              <div className="w-8 h-[1px] bg-gold" />
           </div>
-          <h3 className="text-4xl font-serif mb-4 leading-[1.1] tracking-tight text-white">
+          <h3 className="text-3xl sm:text-4xl font-serif mb-4 leading-[1.1] tracking-tight text-white">
             Dining Questions
           </h3>
         </div>
@@ -37,9 +37,9 @@ export function FAQSection() {
               <div key={i} className="border border-white/10 rounded-2xl overflow-hidden bg-white/5 transition-colors hover:border-gold/30">
                 <button 
                   onClick={() => setOpenIndex(isOpen ? null : i)}
-                  className="w-full flex items-center justify-between p-6 text-left"
+                  className="w-full flex items-center justify-between gap-4 p-4 sm:p-6 text-left"
                 >
-                  <span className={cn("font-serif text-xl transition-colors", isOpen ? "text-gold" : "text-white")}>
+                  <span className={cn("font-serif text-base sm:text-lg md:text-xl transition-colors flex-1 min-w-0 pr-2", isOpen ? "text-gold" : "text-white")}>
                     {faq.q}
                   </span>
                   <ChevronDown 
@@ -55,7 +55,7 @@ export function FAQSection() {
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3 }}
                     >
-                      <div className="px-6 pb-6 text-white/60 font-light text-[15px] leading-relaxed">
+                      <div className="px-4 sm:px-6 pb-4 sm:pb-6 text-white/60 font-light text-sm sm:text-[15px] leading-relaxed">
                         {faq.a}
                       </div>
                     </motion.div>
