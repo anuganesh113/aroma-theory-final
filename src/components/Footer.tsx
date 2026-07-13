@@ -50,26 +50,21 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Newsletter */}
+          {/* Location Map */}
           <div>
-            <h3 className="text-xs uppercase tracking-widest font-medium mb-6">Newsletter</h3>
-            <p className="font-light text-cream/60 text-sm leading-relaxed mb-4">
-              Subscribe to receive updates on seasonal menus and exclusive events.
-            </p>
-            <form className="flex border-b border-cream/30 pb-2 focus-within:border-amber transition-colors">
-              <input 
-                type="email" 
-                placeholder="Email address" 
-                required
-                className="bg-transparent w-full focus:outline-none font-light text-sm text-cream placeholder:text-cream/30"
-              />
-              <button 
-                type="submit"
-                className="text-xs uppercase tracking-widest font-medium text-amber hover:text-amber-hover transition-colors ml-2"
-              >
-                Join
-              </button>
-            </form>
+            <h3 className="text-xs uppercase tracking-widest font-medium mb-6">Location</h3>
+            <div className="w-full h-40 rounded-lg overflow-hidden border border-cream/10">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98731968459391!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes+Square!5e0!3m2!1sen!2sus!4v1560412120000!5m2!1sen!2sus" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen={true} 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Google Maps Location"
+              ></iframe>
+            </div>
           </div>
 
         </div>
