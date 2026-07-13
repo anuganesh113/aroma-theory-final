@@ -38,7 +38,7 @@ export function Navbar() {
           className={cn(
             'flex items-center justify-between w-full max-w-[1400px] transition-all duration-500 rounded-full px-6 md:px-10',
             isScrolled 
-              ? 'bg-[#242B3A] py-3 shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-white/10' 
+              ? 'bg-[rgb(30,48,70)] py-3 shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-white/10' 
               : 'bg-transparent py-3 md:py-4'
           )}
         >
@@ -49,7 +49,7 @@ export function Navbar() {
               alt="Aroma Theory Logo" 
               className={cn(
                 "w-auto object-contain transition-all duration-500 group-hover:opacity-80 group-hover:scale-105",
-                isScrolled ? "h-10 md:h-12" : "h-12 md:h-16"
+                isScrolled ? "h-12 md:h-16" : "h-16 md:h-24"
               )} 
             />
           </Link>
@@ -118,7 +118,7 @@ export function Navbar() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 bg-[#242B3A]/95 backdrop-blur-xl z-[60] flex flex-col"
+            className="fixed inset-0 bg-[rgb(30,48,70)]/95 backdrop-blur-xl z-[60] flex flex-col"
           >
             <div className="flex justify-end p-6 md:p-8">
               <button
