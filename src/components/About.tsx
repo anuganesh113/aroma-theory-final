@@ -36,7 +36,7 @@ export function About() {
           >
             <div className="flex items-center gap-4 mb-8">
               <div className="w-12 h-px bg-gold" />
-              <h2 className="text-eyebrow uppercase text-gold">
+              <h2 className="text-eyebrow font-sans uppercase text-gold">
                 Our Philosophy
               </h2>
             </div>
@@ -62,7 +62,7 @@ export function About() {
               <p className="font-serif text-display-card italic text-charcoal/90 leading-[1.6] mb-4">
                 "It's not just a meal. It's a sensory narrative, crafted to linger in your memory long after the final course."
               </p>
-              <footer className="text-eyebrow uppercase text-charcoal/50">
+              <footer className="text-eyebrow font-sans uppercase text-charcoal/50">
                 — Julian Thorne, Head Chef
               </footer>
             </blockquote>
@@ -109,7 +109,7 @@ export function About() {
                   Experience<br/>Our Signature
                 </span>
                 <div className="flex items-center gap-4 text-gold">
-                  <span className="text-eyebrow uppercase">View Menu</span>
+                  <span className="text-eyebrow font-sans uppercase">View Menu</span>
                   <ArrowRight size={18} className="transition-transform group-hover:translate-x-2" />
                 </div>
               </a>

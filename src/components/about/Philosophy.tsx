@@ -23,7 +23,7 @@ export function Philosophy() {
             className="flex items-center justify-center gap-4 mb-6"
           >
              <div className="w-8 h-[1px] bg-gold" />
-             <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold">Our Beliefs</h2>
+             <h2 className="text-eyebrow font-sans uppercase text-gold">Our Beliefs</h2>
              <div className="w-8 h-[1px] bg-gold" />
           </motion.div>
           

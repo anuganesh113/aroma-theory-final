@@ -65,7 +65,7 @@ export function MenuSection({ id, title, description, dishes }: { id: string, ti
       <div className="mb-8 md:mb-12">
         <div className="flex items-center gap-4 mb-6">
            <div className="w-8 h-[1px] bg-gold" />
-           <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold">{title}</h2>
+           <h2 className="text-eyebrow font-sans uppercase text-gold">{title}</h2>
         </div>
         <h3 className="text-3xl sm:text-4xl md:text-5xl font-serif mb-4 leading-[1.1] text-white">{title}</h3>
         {description && (

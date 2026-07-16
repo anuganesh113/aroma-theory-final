@@ -39,7 +39,7 @@ export function Experience() {
       <div className="max-w-[1500px] mx-auto px-6 md:px-16 mb-20 text-center flex flex-col items-center">
         <div className="flex items-center gap-4 mb-8">
           <div className="w-12 h-px bg-gold" />
-          <h2 className="text-xs uppercase tracking-[0.3em] text-gold font-semibold">Our Experiences</h2>
+          <h2 className="text-eyebrow font-sans uppercase text-gold">Our Experiences</h2>
           <div className="w-12 h-px bg-gold" />
         </div>
         <h3 className="text-display-section font-serif leading-[1.1] tracking-tight">

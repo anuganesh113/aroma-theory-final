@@ -22,7 +22,7 @@ export function FAQSection() {
         <div className="text-center mb-10 md:mb-16">
           <div className="flex items-center justify-center gap-4 mb-6">
              <div className="w-8 h-[1px] bg-gold" />
-             <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold">Information</h2>
+             <h2 className="text-eyebrow font-sans uppercase text-gold">Information</h2>
              <div className="w-8 h-[1px] bg-gold" />
           </div>
           <h3 className="text-3xl sm:text-4xl font-serif mb-4 leading-[1.1] tracking-tight text-white">

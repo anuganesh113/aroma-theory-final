@@ -39,7 +39,7 @@ export function DrinksSection() {
         <div className="text-center mb-12 md:mb-20 max-w-3xl mx-auto">
           <div className="flex items-center justify-center gap-4 mb-6">
              <div className="w-8 h-[1px] bg-gold" />
-             <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold">From the Bar</h2>
+             <h2 className="text-eyebrow font-sans uppercase text-gold">From the Bar</h2>
              <div className="w-8 h-[1px] bg-gold" />
           </div>
           <h3 className="text-3xl sm:text-4xl md:text-5xl font-serif mb-4 sm:mb-6 leading-[1.1] tracking-tight text-white">

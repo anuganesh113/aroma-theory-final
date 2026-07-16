@@ -34,7 +34,7 @@ export function TheJourney() {
     <section className="py-24 md:py-32 bg-cream text-charcoal">
       <div className="max-w-[1200px] mx-auto px-6 md:px-12">
         <div className="text-center mb-20">
-          <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold mb-4">The Timeline</h2>
+          <h2 className="text-eyebrow font-sans uppercase text-gold mb-4">The Timeline</h2>
           <h3 className="text-4xl md:text-5xl font-serif">An Evening at Aroma</h3>
         </div>
 

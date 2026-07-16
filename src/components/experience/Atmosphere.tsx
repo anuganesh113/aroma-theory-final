@@ -20,7 +20,7 @@ export function Atmosphere() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold mb-4">The Atmosphere</h2>
+            <h2 className="text-eyebrow font-sans uppercase text-gold mb-4">The Atmosphere</h2>
             <h3 className="text-4xl md:text-5xl font-serif mb-8 leading-tight">
               Designed to Captivate
             </h3>

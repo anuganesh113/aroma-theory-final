@@ -30,7 +30,7 @@ export function MenuHighlights() {
           <div className="relative">
              <div className="flex items-center gap-6 mb-6">
                 <div className="w-16 h-[1px] bg-gold" />
-                <h2 className="text-eyebrow uppercase text-gold">The Menu</h2>
+                <h2 className="text-eyebrow font-sans uppercase text-gold">The Menu</h2>
              </div>
              <h3 className="text-display-section font-serif text-cream">
                 Culinary<br/>
@@ -44,7 +44,7 @@ export function MenuHighlights() {
                 key={category}
                 onClick={() => setActiveCategory(category)}
                 className={cn(
-                  "text-eyebrow uppercase transition-all duration-500 relative py-2",
+                  "text-eyebrow font-sans uppercase transition-all duration-500 relative py-2",
                   activeCategory === category 
                     ? "text-gold" 
                     : "text-cream/40 hover:text-cream/80"

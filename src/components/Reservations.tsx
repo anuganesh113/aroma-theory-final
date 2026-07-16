@@ -51,7 +51,7 @@ export function Reservations() {
           >
             <div className="flex items-center gap-4 mb-6">
                <div className="w-8 h-px bg-gold" />
-               <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold">Join Us</h2>
+               <h2 className="text-eyebrow font-sans uppercase text-gold">Join Us</h2>
             </div>
             
             <h3 className="text-display-section font-serif mb-6 tracking-tight leading-[1.1]">

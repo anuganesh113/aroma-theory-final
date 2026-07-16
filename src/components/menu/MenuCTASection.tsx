@@ -18,7 +18,7 @@ export function MenuCTASection() {
             
             <div className="flex items-center gap-4 mb-8">
                <div className="w-8 h-[1px] bg-gold" />
-               <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold">Join Us</h2>
+               <h2 className="text-eyebrow font-sans uppercase text-gold">Join Us</h2>
                <div className="w-8 h-[1px] bg-gold" />
             </div>
 

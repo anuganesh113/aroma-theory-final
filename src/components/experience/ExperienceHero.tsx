@@ -27,7 +27,7 @@ export function ExperienceHero() {
         >
           <div className="flex items-center justify-center gap-4 mb-6">
              <div className="w-12 h-[1px] bg-gold" />
-             <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold">The Experience</h2>
+             <h2 className="text-eyebrow font-sans uppercase text-gold">The Experience</h2>
              <div className="w-12 h-[1px] bg-gold" />
           </div>
           

@@ -40,7 +40,7 @@ export function OurStory() {
           >
             <div className="flex items-center gap-4 mb-6">
                <div className="w-8 h-[1px] bg-gold" />
-               <h2 className="text-[10px] uppercase tracking-[0.3em] text-gold font-semibold">Our Journey</h2>
+               <h2 className="text-eyebrow font-sans uppercase text-gold">Our Journey</h2>
             </div>
             
             <h3 className="text-4xl md:text-5xl lg:text-6xl font-serif mb-8 leading-[1.1] tracking-tight">
